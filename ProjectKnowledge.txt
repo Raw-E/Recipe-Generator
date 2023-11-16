@@ -1,2 +1,32 @@
-AI Powered Recipe Generator
+AI-Powered Recipe Generator with AWS Integration
+1. Hosting & Deployment:
 
+Project to be hosted and deployed using AWS services.
+Utilizing AWS Amplify for full-stack development and deployment.
+AWS AppSync for GraphQL API and backend interactions.
+2. Frontend:
+
+Frontend static files to be hosted in an AWS S3 bucket.
+AWS Amplify to manage frontend deployment and hosting.
+3. Backend:
+
+AWS AppSync providing a managed GraphQL service.
+Backend functionalities integrated into AWS AppSync, potentially utilizing AWS Lambda if needed for additional processing.
+4. Security:
+
+Environment variables and API keys to be managed securely via AWS Amplify and not stored in the frontend code.
+IAM roles and policies to be configured for secure access.
+5. Development Updates:
+
+Implemented error handling and form submission logic in insertRecipe.js.
+Addressed CORS issues and updated server.js for proper backend setup.
+Prepared server-side code for deployment to handle requests from the frontend.
+6. Next Steps:
+
+Configure CORS policy on AWS to ensure frontend-backend communication.
+Finalize environment variables setup in AWS for AppSync and Lambda.
+Test the full-stack application deployment via AWS Amplify.
+Set up a domain with Route 53 for a professional web presence (optional).
+7. Continuous Integration & Deployment:
+
+Plan to set up CI/CD with AWS Amplify linked to a code repository for automated builds and deployments.

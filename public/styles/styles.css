@@ -1,0 +1,100 @@
+/* Base styles for body and textarea */
+body, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the frames and container in the viewport */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Styles for the outer frame */
+.frame-outer {
+    background-color: #ddd; /* Lighter gray for the outermost frame */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Styles for the inner frame */
+.frame-inner {
+    background-color: #ccc; /* Medium gray for the inner frame */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Styles for the container */
+.container {
+    background-color: #bbb; /* Darker gray for the container itself */
+    padding: 40px;
+    border-radius: 8px;
+    width: 600px; /* Fixed width, can be adjusted as necessary */
+    max-width: 100%; /* Ensures it doesn't overflow on small devices */
+}
+
+/* Styles for the header */
+h1 {
+    color: white;
+    margin-bottom: 20px; /* Spacing below the header */
+}
+
+/* Styles for the textarea */
+#json-input {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    resize: vertical; /* Allows the textarea to be resized vertically */
+    font-family: Arial, sans-serif; /* Ensure the font is consistent */
+}
+
+/* Styles for buttons */
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Adjust this to 'center' if you want the buttons to be closer together */
+    gap: 10px;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #999; /* Lighter gray for the buttons */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1; /* This ensures that both buttons take up equal space in the container */
+    text-align: center; /* Centers the text in the button */
+    vertical-align: middle; /* Aligns text vertically */
+    line-height: normal; /* Resets line height to avoid alignment issues */
+}
+
+.button-group button:hover {
+    background-color: #888; /* Slightly darker gray on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container, .frame-inner, .frame-outer {
+        width: auto;
+        padding: 20px;
+    }
+    #json-input {
+        height: auto;
+    }
+}
+
+#message {
+    font-weight: bold; /* Bold font weight for all messages */
+    margin-top: 10px; /* Spacing above the message */
+    /* No color here, since the color will be set dynamically by JavaScript */
+}
+

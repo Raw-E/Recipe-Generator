@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-recipegenerator-dev-231257-authRole",
+      "UnauthRoleArn": "arn:aws:iam::213804319260:role/amplify-recipegenerator-dev-231257-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::213804319260:role/amplify-recipegenerator-dev-231257-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-recipegenerator-dev-231257-deployment",
+      "UnauthRoleName": "amplify-recipegenerator-dev-231257-unauthRole",
+      "StackName": "amplify-recipegenerator-dev-231257",
+      "StackId": "arn:aws:cloudformation:us-east-2:213804319260:stack/amplify-recipegenerator-dev-231257/183c5a80-82a4-11ee-bfcf-02eaa6d1f847",
+      "AmplifyAppId": "d1sk733txibydy"
+    },
+    "categories": {
+      "api": {
+        "recipegenerator": {}
+      }
+    }
+  }
+}
